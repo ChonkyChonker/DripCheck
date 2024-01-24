@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "FredokaOne";
+  src: url('../public/Fredoka.ttf') format('truetype');
+}
+
+body {
+  background-image: url("../public/background.png");
+  background-color: #9dd9f3;
+  color: white;
+  padding: 40px;
+  font-family: FredokaOne;
+}
+
+.Map {
+  margin-left: 450px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.CurrPos {
+  text-align: center;
+  color: #3e4772;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#logo {
+  position: absolute;
+  border-radius: 30px;
+  width: 125px;
+  height: 125px;
+  left: 2%;
+  top: 4%;
+}
+
+.dripImage {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.Switch {
+  text-align: center;
+  color: #3e4772;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.toggleSwitch {
+  vertical-align: middle;
+  margin-left: 4px;
+}
+
+#drip {
+  border-radius: 30px;
+  border-color: rgb(65, 154, 243);
+  border-style: double;
+  width: 450px;
+  height: 600px;
+}
+
+#loading {
+  border-radius: 30px;
+  border-style: hidden;
+  width: 300px;
+  height: 300px;
+}
+
+.Location {
+  text-align: center;
+  overflow: auto;
+}
+
+.Title {
+  text-align: center;
+  font-size: 39px;
+  color: #3e4772;
+}
+
+#searchBar {
+  height: 40px;
+  width: 500px;
+  border-radius: 20px;
+  margin-right: 10px;
+  background-color: whitesmoke;
+  border-color: rgb(58, 229, 215);
+  font-family: "FredokaOne";
+  src: url('../public/Fredoka.ttf') format('truetype');
+  font-size: 17px;
+  font-weight: 600;
+  color:rgb(37, 64, 84);
+  box-shadow: 2px 3px 20px #6877c2;
+}
+
+#getDrip {
+  height: 46px;
+  width: 100px;
+  color: #3e4772;
+  font-family: "FredokaOne";
+  src: url('../public/Fredoka.ttf') format('truetype');
+  font-weight: bold;
+  border-radius: 20px;
+  border-color: #3e4772;
+  box-shadow: 2px 3px 10px #597cbc;
+}
+
+#getDrip:hover {
+  background-color: #304674;
+  color: white;
+  cursor: pointer;
+}
